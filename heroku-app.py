@@ -73,6 +73,7 @@ def help(update, context):
 def echo(update, context):
     """Echo the user message."""
 
+    # Code to manage logic of bot's output
     # vector = overall_cleantext(str(update.message.text), tok)
     # prediction = lstm.predict(vector)
     # result = []
